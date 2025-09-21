@@ -45,16 +45,16 @@ header{
     position: relative;
     background-image: url('../image/frame-iphone.png');
     background-repeat: no-repeat;
-    width: 311px;
-    height: 627px;
+    width: 200px;
+    height: 403px;
     margin: 100px auto;
     display: block;
    
 }
 iframe{
 position: absolute;
-top: 80px;
-left: 20px;
-width: 269px;
-height: 470px;
+top: 50px;
+left: 12px;
+width: 170px;
+height: 304px;
 }
