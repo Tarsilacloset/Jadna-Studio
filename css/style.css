@@ -1,0 +1,60 @@
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    line-height: 3em;
+
+  padding: 20px 0 20px 0;
+}
+
+.menu{
+    background-color: blueviolet;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    margin: 0 10px;
+    padding: 4px;
+    border-radius: 5px;
+    animation: btn 5s linear infinite;
+    display: inline-block;
+}
+@keyframes btn {
+    0%{ transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+.celular{
+    position: relative;
+    background-image: url('../image/frame-iphone.png');
+    background-repeat: no-repeat;
+    width: 311px;
+    height: 627px;
+    margin: 100px auto;
+    display: block;
+   
+}
+iframe{
+position: absolute;
+top: 80px;
+left: 20px;
+width: 269px;
+height: 470px;
+}
