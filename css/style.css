@@ -58,3 +58,11 @@ left: 12px;
 width: 170px;
 height: 304px;
 }
+.bnt a{
+    display:inline-block;
+    background-color: brown;
+    margin: 10px;
+    padding: 0 10px;
+    text-align: center;
+    
+}
