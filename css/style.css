@@ -67,30 +67,40 @@ header p{
     margin: 10px 0;
     
 }
-.fundo nav>a{
+.menu nav>a{
     
     text-decoration: none;
     background-color: lightseagreen;
 }
-.fundo nav{
+.menu nav{
     background-color: aqua;
     position: sticky;
     top: 0;
+    padding: 20px;
 }
 
-.fundo div{
-    width: 100px;
-    margin: 150px 0 0 30px;
-    line-height: 2em;
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
-   
+.paralax p{
+    padding-top: 8vh;
+    padding-bottom: 7vh;
+    display: block;
+  
+    width: 150px;
+    margin: 20px;
+    font-size: 1.4em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
 }
-.fundo{
-     background-image: url('../image/jadna2.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center center;
-     background-attachment: fixed;
+.foto p{
+    color: white;
+    background-color: rgba(35, 35, 35, 0.321);
+}
+
+
+.foto{
+    background-image: url("../image/jadna2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
