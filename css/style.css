@@ -44,9 +44,13 @@ header p{
     font-family: "Teko", sans-serif;
     
 }
-
+.inicio{
+    background-color: rgb(21, 193, 33);
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
 .mim{
-    margin: 50px 0 0 10px;
+   
     width: 200px;
     background-color: aquamarine;
     padding: 10px 20px 10px 20px;
@@ -64,6 +68,9 @@ header p{
      font-size: 1.5em;
      font-weight: bold;
     
+}
+.trabalho{
+    background-color: blueviolet;
 }
 .carrossel{
     display: flex;
@@ -100,10 +107,11 @@ header p{
 }
 .espaco{
     font-family: "Goldman", sans-serif;
-    margin: 50px 0;
     background-color: brown;
     padding: 10px;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 .menu nav>a{
     display: inline-block;
