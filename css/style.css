@@ -52,7 +52,7 @@ header p{
     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
    
 }
 .carrossel img{
@@ -62,4 +62,35 @@ header p{
     border-radius: 15px;
     object-fit: cover;
     
+}
+.space{
+    margin: 10px 0;
+    
+}
+.fundo nav>a{
+    
+    text-decoration: none;
+    background-color: lightseagreen;
+}
+.fundo nav{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}
+
+.fundo div{
+    width: 100px;
+    margin: 150px 0 0 30px;
+    line-height: 2em;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.fundo{
+     background-image: url('../image/jadna2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
 }
