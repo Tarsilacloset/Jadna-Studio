@@ -80,7 +80,8 @@ header p{
     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
     max-width: 70%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
    
 }
 .carrossel img{
@@ -138,8 +139,7 @@ header p{
 .paralax p{
     padding-top: 8vh;
     padding-bottom: 7vh;
-    display: block;
-  
+    display: block;  
     width: 200px;
     margin: 20px;
     font-size: 1.5em;
