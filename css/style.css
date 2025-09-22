@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -24,11 +32,16 @@ header img{
 header h1{
     text-align: right;
     font-size: 7vw;
+    font-variant: small-caps;
+     font-family: "Charm", cursive;
+     font-weight: bold;
+    
 
 }
 header p{
     text-align: right;
     font-size: 4vw;
+    font-family: "Teko", sans-serif;
     
 }
 
@@ -36,12 +49,20 @@ header p{
     margin: 50px 0 0 10px;
     width: 200px;
     background-color: aquamarine;
-    padding: 0 20px 0 20px;
+    padding: 10px 20px 10px 20px;
     line-height: 2em;
-    border-radius: 10px;
+    border-radius: 0 50px  10px 50px ;
+}
+.mim h1{
+     font-family: "Goldman", sans-serif;
+     font-size: 1.5em;
+     font-weight: normal;
 }
 .mim p{
     margin: 50px 0;
+     font-family: "Ms Madi", cursive;
+     font-size: 1.5em;
+     font-weight: bold;
     
 }
 .carrossel{
@@ -51,7 +72,7 @@ header p{
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
-    width: 70%;
+    max-width: 70%;
     margin: 0 auto 50px auto;
    
 }
@@ -63,20 +84,47 @@ header p{
     object-fit: cover;
     
 }
+.centralizar{
+        text-align: center;
+    }
 .space{
+    width: 80vw;
     margin: 10px 0;
+    font-size: 1.3em;
+    margin-left: 30px;
+    background-image: linear-gradient(to right, red, transparent);
+    padding: 3px 3px 3px 10px;
+    border-radius: 15px 0 15px 0;
+    font-family: "Goldman", sans-serif;
     
 }
+.espaco{
+    font-family: "Goldman", sans-serif;
+    margin: 50px 0;
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+}
 .menu nav>a{
-    
+    display: inline-block;
     text-decoration: none;
     background-color: lightseagreen;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto 10px;
+    animation: pulsar 3s linear infinite;
+    font-family: "Goldman", sans-serif;
 }
 .menu nav{
     background-color: aqua;
     position: sticky;
     top: 0;
     padding: 20px;
+}
+@keyframes pulsar{
+    0%{ transform: scale(1);}
+    50%{ transform: scale(1.1);}
+    100%{ transform: scale(1);}
 }
 
 .paralax p{
@@ -90,6 +138,12 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 15px;
+    line-height: 2em;
+    font-family: "Beau Rivage", cursive;
+    
+    letter-spacing: 3px;
+    
+    
 }
 .foto p{
     color: white;
@@ -103,4 +157,5 @@ header p{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border-radius: 15px;
 }
